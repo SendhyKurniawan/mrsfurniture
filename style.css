@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --main-color: #fcd067;
+  --second-color: #000000;
+  --third-color: #777777;
+
+  --main-font: "Inter", sans-serif;
+}
+
+/* Nur Aisah CSS*/
+* {
+  font-family: "Inter";
+  font-style: normal;
+}
+
+html ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html ::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 10px;
+  border: 1px #000 solid;
+}
+
+html ::-webkit-scrollbar {
+  width: 15px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--second-color);
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.navbar {
+  background-color: #000000;
+  font-weight: 700;
+}
+
+/* navbar start */
+#navbar {
+  background-color: var(--second-color);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(252, 208, 103)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+  color: white;
+  transition: 0.5s ease;
+  text-align: right;
+}
+.nav-link:hover {
+  color: var(--main-color);
+}
+/* navbar end */
+
+/* home section */
+.parallax {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/main.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.tagline {
+  line-height: 48px;
+  text-align: center;
+}
+.success {
+  color: #000000;
+  font-weight: 400;
+  font-size: 40px;
+}
+.business {
+  color: #fcd067;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.btnfind {
+  padding: 15px;
+  background: #000000;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.btnfind:hover {
+  border-radius: 25px;
+  border-color: #fcd067;
+  border-width: thin;
+  border-style: solid;
+  background: #000000;
+  color: #fcd067;
+}
+/* home section */
+
+/* top cards */
+
+.title {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.servicescard {
+  background-color: transparent;
+  border-radius: 0%;
+}
+
+.servicesbody {
+  color: #ffffff;
+}
+.servicestitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+.servicetext {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+.serviceimage {
+  width: 255.1px;
+  height: 125px;
+  align-self: center;
+  margin-top: 3px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  background-size: cover;
+  object-fit: cover;
+}
+.serviceimage:hover {
+  transform: translateY(-10px);
+}
+/* top cards end */
+
+/* About Us */
+#about {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+
+#about h4 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+#about h5 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #777777;
+}
+#point {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #777777;
+  text-align: left;
+}
+/* About Us end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Nur Aisah CSS*/
+
+/* Sendhy Kurniawan CSS */
+
+a {
+  text-decoration: none;
+}
+
+.catalog {
+  background-color: var(--main-color);
+}
+
+.cardcatalog1 {
+  background-image: url(img/service1.webp);
+  background-size: cover;
+  height: 400px;
+}
+.cardcatalog2 {
+  background-image: url(img/service2.webp);
+  background-size: cover;
+  height: 400px;
+}
+.cardcatalog3 {
+  background-image: url(img/service3.webp);
+  background-size: cover;
+  height: 400px;
+}
+
+.card-overlay-before {
+  opacity: 0%;
+  color: var(--main-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.card-overlay-after {
+  background-color: #00000073;
+  color: var(--main-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.team {
+  background-color: white;
+}
+
+.teamimg {
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.contact {
+  background-color: var(--second-color);
+}
+
+.subtitle {
+  color: var(--third-color);
+}
+
+.circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background-color: var(--main-color);
+  scale: 125%;
+}
+.circle:hover {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background-color: #ffc847;
+  scale: 125%;
+}
+
+.wraplist {
+  display: block;
+  list-style-type: none;
+}
+
+li {
+  text-decoration: none;
+  padding-right: 30px;
+  float: left;
+}
+
+.sendmsgbtn {
+  background-color: var(--main-color);
+}
+
+.cpyrght {
+  color: var(--main-color);
+}
+/* Sendhy Kurniawan CSS */
