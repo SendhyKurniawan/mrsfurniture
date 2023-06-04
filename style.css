@@ -171,8 +171,16 @@ body {
 
 .aboutsub {
   margin: auto;
-  width: 80%;
+  width: 60%;
   word-wrap: break-word;
+}
+
+@media only screen and (max-width: 1000px) {
+  .aboutsub {
+    margin: auto;
+    width: 100%;
+    word-wrap: break-word;
+  }
 }
 
 #about h4 {
