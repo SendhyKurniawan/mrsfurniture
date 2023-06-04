@@ -62,7 +62,7 @@ body {
 .parallax {
   width: 100%;
   height: 100vh;
-  background-image: url(img/main.png);
+  background-image: url(img/main.webp);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -169,6 +169,12 @@ body {
   background: #ffffff;
 }
 
+.aboutsub {
+  margin: auto;
+  width: 100vh;
+  word-wrap: break-word;
+}
+
 #about h4 {
   font-weight: 700;
   font-size: 30px;
@@ -222,6 +228,16 @@ a {
   height: 400px;
 }
 
+.cardcatalog1:hover {
+  cursor: pointer;
+}
+.cardcatalog2:hover {
+  cursor: pointer;
+}
+.cardcatalog3:hover {
+  cursor: pointer;
+}
+
 .card-overlay-before {
   opacity: 0%;
   color: var(--main-color);
@@ -243,6 +259,14 @@ a {
   object-fit: cover;
   width: 100%;
   height: 300px;
+}
+
+.teamcard {
+  transition: 0.5s ease;
+}
+
+.teamcard:hover {
+  transform: translateY(-10px);
 }
 
 .contact {
