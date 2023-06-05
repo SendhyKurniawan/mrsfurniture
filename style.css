@@ -8,6 +8,11 @@
   --main-font: "Inter", sans-serif;
 }
 
+.form-control:focus {
+  border-color: var(--main-color);
+  box-shadow: inset 0 1px 1px;
+}
+
 /* Nur Aisah CSS*/
 * {
   font-family: "Inter";
